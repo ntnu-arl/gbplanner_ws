@@ -10,7 +10,7 @@ git clone https://github.com/unr-arl/gbplanner_ws
 ```
 cd gbplanner_ws
 wstool init
-wstool merge packages.rosinstall
+wstool merge packages_https.rosinstall
 wstool update
 ```
 
