@@ -39,8 +39,8 @@
 # MAPPING
 - git:
     local-name: src/mapping/voxblox/
-    uri: git@github.com:ethz-asl/voxblox.git
-    version: feature/new_abort_criterion_for_fast_integrator
+    uri: git@github.com:ntnu-arl/voxblox.git
+    version: dev/noetic
 - git:
     local-name: src/mapping/volumetric_mapping/
     uri: git@github.com:unr-arl/volumetric_mapping.git
@@ -50,7 +50,7 @@
 - git:
     local-name: src/exploration/gbplanner_ros/
     uri: git@github.com:unr-arl/gbplanner_ros.git
-    version: master
+    version: dev/noetic
 - git:
     local-name: src/exploration/pci_mav/
     uri: git@github.com:unr-arl/pci_mav.git
@@ -62,7 +62,7 @@
 - git:
     local-name: src/sim/rotors_simulator/
     uri: git@github.com:unr-arl/rotors_simulator.git
-    version: dev/gbplanner_ros
+    version: dev/arl_planners_gazebo9
 - git:
     local-name: src/sim/lidar_simulator/
     uri: git@github.com:unr-arl/lidar_simulator.git
