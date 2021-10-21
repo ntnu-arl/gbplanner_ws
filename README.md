@@ -7,6 +7,15 @@ The workspace has been tested in Ubuntu 16.04 and ROS Kinetic. If you are using 
 ### Clone the package
 ```
 git clone https://github.com/unr-arl/gbplanner_ws
+
+# For ROS Kinetic (Ubuntu 16.04) 
+# master branch should work just fine
+
+# For ROS Melodic (Ubuntu 18.04)
+git checkout melodic
+
+# For ROS Noetic (Ubuntu 20.04)
+git checkout noetic
 ```
 
 ### Setup the workspace
