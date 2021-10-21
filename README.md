@@ -12,6 +12,7 @@ git clone https://github.com/unr-arl/gbplanner_ws
 ### Setup the workspace
 ```
 cd gbplanner_ws
+git checkout <ros-distro> # melodic / noetic 
 wstool init
 wstool merge packages_https.rosinstall
 wstool update
