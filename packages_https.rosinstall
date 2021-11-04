@@ -50,6 +50,7 @@
 - git:
     local-name: src/exploration/gbplanner_ros/
     uri: https://github.com/unr-arl/gbplanner_ros
+    version: master
 - git:
     local-name: src/exploration/pci_mav/
     uri: https://github.com/unr-arl/pci_mav
